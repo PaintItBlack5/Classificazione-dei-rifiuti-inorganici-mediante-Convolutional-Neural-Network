@@ -25,7 +25,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env train.py --world
 ```
 
 
-###### Pre-train modello base su dataset CUB-200
+##### Pre-train modello base su dataset CUB-200
 
 ```bash
 python train.py --world_size 1 --dataset CUB200 --model resnest50d --epochs 50 \
