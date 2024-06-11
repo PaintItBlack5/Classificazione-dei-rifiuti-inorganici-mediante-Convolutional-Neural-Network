@@ -1,0 +1,4 @@
+1 001.Glass
+2 002.Metal
+3 003.Paper
+4 004.Plastic
